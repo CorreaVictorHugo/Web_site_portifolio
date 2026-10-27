@@ -1,0 +1,21 @@
+# Configurações locais de hospedagem
+.vercel/
+.netlify/
+
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados e temporários
+node_modules/
+dist/
+*.log
+__pycache__/
+*.py[cod]
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
